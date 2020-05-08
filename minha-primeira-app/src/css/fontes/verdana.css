@@ -1,0 +1,139 @@
+
+/* XXXXXXXXXX     TAGS HTML     XXXXXXXXXX */
+
+body {
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+}
+
+p{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:10px;
+	text-align:justify;
+	margin:0;
+}
+
+a {
+	font-weight:bold;
+	text-decoration:none;
+}
+
+a:hover {
+	font-weight:bold;
+    text-decoration:underline;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE HEADER     XXXXXXXXXX */
+
+.UserInfo .Label, .Language .Label{
+	font-weight:bold;
+}
+
+.ShortcutLinks a{
+	font-weight:bold;
+}
+
+.ApplicationVesion{
+	font-weight:bold;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE TÍTULO E LOCALIZADOR     XXXXXXXXXX */
+
+.TitleBar .Title{
+	font:bold 16px Verdana, Geneva, sans-serif;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE FORMULÁRIO     XXXXXXXXXX */
+
+label{
+	font-weight:bold;
+}	
+
+.FormTitle{
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.CheckboxLabel, .RadioButtonLabel{
+	font-weight:normal;
+}	
+
+input, select, textarea{
+	font-size:10px;
+}
+
+.FormButton, .FormButtonAction{
+	font-weight:bold;
+	border:0;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE PAGINAÇAO     XXXXXXXXXX */
+
+.Pagination {
+    font-weight: bold;
+    text-align: center;
+}
+
+ul.Pagination a {
+    text-decoration: underline;
+}
+
+ul.Pagination .ActualPage {
+    font-weight: bold;
+}
+
+ul.Pagination .ActualPage a {
+    text-decoration: none;
+}
+
+.SearchResults{
+    font-weight: bold;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE TABELA/GRID     XXXXXXXXXX */
+
+.TableGrid th{
+	font-weight:bold;
+	text-align:center;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE MENSAGEM     XXXXXXXXXX */
+
+.InformationMsg, .ErrorMsg, .SuccessMsg, .QuestionMsg{
+	font-size:11px;
+	font-weight:bold;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE PÁGINA DE ERRO     XXXXXXXXXX */
+
+.MessageContent p{
+	font-size:11px;	
+}
+
+.MessageErrorTitle {
+	font-size:16px;
+	font-weight:bold;
+}
+
+
+
+/****************************************************************
+** MODIFICACOES PARA FCORP JAVA
+****************************************************************/
+.RadioButton label, .Checkbox label{
+  font-weight: normal;
+}
+
+
+.PaginationBar label{
+  font-size: 10px;
+  font-weight: normal;
+}

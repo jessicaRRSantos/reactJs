@@ -1,13 +1,18 @@
 import React from 'react';
-//import logo from './logo.svg';
-import './App.css';
-import Conteudo from './Componentes/Conteudo/Conteudo';
+
+import './css/layout/layout.css';
+import './css/fontes/verdana.css';
+import './css/controles/basico.css';
+import './css/cores/cores.css';
+import Conteudo from './Componentes/Conteudo/conteudo';
 
 function App() {
   return (
-    <div className="headerArea">
-      <Conteudo/>
-    </div>
+      <body>
+        <div class="Wrap">
+          <Conteudo/>
+        </div>
+    </body>
   );
 }
 

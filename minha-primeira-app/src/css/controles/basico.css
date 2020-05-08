@@ -1,0 +1,261 @@
+
+img {    
+	border:none;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE FORMULÁRIO     XXXXXXXXXX */
+
+fieldset{
+	margin:15px 0px;
+	padding:10px;
+}
+
+.HeaderForm{
+	width:100%;
+	height:25px;
+	clear:both;
+}
+
+.FormTitle{
+	padding:5px 0 10px 5px;
+	float:left;
+}
+
+.FormLegend{
+	padding:5px 0 10px 5px;
+	float:right;
+}
+
+
+label{
+	padding:3px 5px;
+	float:right;
+}	
+
+.CheckboxLabel, .RadioButtonLabel{
+	padding:3px 5px;
+	float:left;
+}	
+
+input, select, textarea{
+	padding:2px;
+}
+
+.CheckboxField, .RadioButtonField{
+	border:0px;
+}
+
+.FormLineButtons{
+	margin:0;
+}
+
+.LineTopButtons{
+	margin:0;
+	text-align:right;
+}
+
+.FormOneColumnLabel{
+	width:250px;
+}
+
+.FormOneColumnField{
+	width:650px;
+	}
+	
+.FormTwoColumnLabel{
+	width:150px;
+}
+
+.FormTwoColumnField{
+	width:300px;
+}
+
+.FormOneLineButtons{
+	margin:5px 0 0 258px;
+	clear:both;
+}	
+	
+.FormTwoLineButtons{
+	margin:5px 0 0 158px;
+	clear:both;
+}	
+
+.FormButton, .FormButtonAction{
+	margin: 0 5px 10px 0;
+	padding:5px 17px 5px 17px; 
+	-moz-border-radius: 3px;
+	border:solid 1px #CCC;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE TABELA/GRID     XXXXXXXXXX */
+
+.TableGrid{
+	width:100%;
+	padding:5px;
+	border-width: 0 0 1px 1px;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+	
+.TableGrid, .TableGrid th, .TableGrid td
+{
+    border-style: solid;
+}
+
+.TableGrid td
+{
+    margin: 0;
+    padding: 4px;
+    border-width: 1px 1px 0 0;
+}
+
+.TableGrid th{
+	border-width: 1px 1px 0 0;
+	padding-top:7px;
+	padding-bottom:7px;
+	font-weight:bold;
+}
+
+.TotalPage{
+	margin:0;
+	padding:15px 0;
+	}
+.SearchResults{
+	padding:15px 0;
+}
+
+.AlignCenter{
+	text-align:center;
+	}
+
+.AlignRight{
+	text-align:right;
+}
+
+.ButtonCell{
+	width:20px;	
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE PAGINAÇÃO     XXXXXXXXXX */
+
+.PaginationBar{
+	margin:0;
+	padding:0;
+    display: inline;
+	float:right;
+}
+	
+.PaginationBar li{
+    display: inline;
+}
+	
+.PaginationBar li input{
+	margin:0;
+	padding:0;
+}
+	
+.PaginationBar li .FormButton{
+	padding:1px 5px 1px 5px;
+}
+	
+ul.Pagination {
+    display: block;
+    margin-bottom: 10px;
+}
+
+ul.Pagination li {
+    display: inline;
+}
+
+ul.Pagination ul {
+    display: inline;
+}
+
+ul.Pagination a {
+    margin: 0 10px;
+}
+
+ul.Pagination .ActualPage a {
+    margin:0;
+    padding: 0 10px;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE MENSAGEM     XXXXXXXXXX */
+
+.MensageList li {
+    margin-bottom: 15px;
+}
+
+.MensageList {
+	padding:0;
+    margin:0;
+	list-style-type:none;
+}
+
+.InformationMsg, .ErrorMsg, .SuccessMsg, .QuestionMsg{
+	padding:8px 0 0 35px;
+	height: 19px;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 7px 2px;
+	display: block;
+}
+
+
+
+/*****************************************
+   MUDANCAS FCORP JAVA
+*****************************************/
+
+.ButtonImage{
+  border:0px;
+}
+
+.PaginationBar label{
+    float:left;
+}
+
+.RadioButton label, .Checkbox label{
+  display: block;
+  float: left;
+  clear: none;
+}
+
+.RadioButton input, .Checkbox input{
+  border: 0px;
+  display: block;
+  float: left;
+  clear: left;
+}
+
+.Pagination li ul{
+    margin-left:0;
+    padding-left:0;
+}
+
+/* configuração das classes utilizadas pelo componente ToolBar do Richfaces */
+
+.rich-toolbar{
+    background: none;
+    border: none;
+}
+
+.rich-menu-item{
+     font-size: 10px;
+     font-family: Verdana, Geneva, sans-serif;
+     color: #696868;
+     padding-left: 0px;
+     background-color: #EDEDED;
+}
+
+.rich-label-text-decor{
+     font-size: 10px;
+     font-family: Verdana, Geneva, sans-serif;
+     color: #696868;
+}

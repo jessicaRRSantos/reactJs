@@ -1,24 +1,28 @@
 import React from 'react';
-import './styles.css';
+// import './styles.css';
 
-const Header = () =>{
+import LogoBar from '../LogoBar/logo';
+
+const Header = (props) =>{
     return (
         <div className="headerArea">
-            <div className="header">
-                <ul className="infoUsuario">
-                    <li className="label">Usuário: </li>
-                    <li className="dados">Teste da Silva </li>
-                    <li className="label"> Perfil: </li>
-                    <li className="dados">Administrador</li>
+            
+            <div className="HeaderBar">
+                <ul className="UserInfo">
+                    <li className="Label">Usuário: </li>
+                    <li className="Data">{props.usuario}</li>
+                    <li className="Label"> Perfil: </li>
+                    <li className="Data">{props.perfil}</li>
                 </ul>
 
-                <ul className="links">
-                    <li><a href="/home">Home</a></li>
-                    <li><a href="/historica">Histórico</a></li>
-                    <li><a href="/sobre">Sobre</a></li>
-                    <li><a href="/logout">Logout</a></li>
+                <ul className="ShortcutLinks">
+                    <li className="Label" ><a href="/home">Home</a></li>
+                    <li className="Label"><a href="/historico">Histórico</a></li>
+                    <li className="Label"><a href="/sobre">Sobre</a></li>
+                    <li className="Label"><a href="/logout">Logout</a></li>
                 </ul>
             </div>
+            <LogoBar/>
         </div>    
     );
 }

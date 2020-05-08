@@ -1,0 +1,184 @@
+
+/* XXXXXXXXXX     TAGS HTML     XXXXXXXXXX */
+
+body {
+	background-image:url(../../imgs/bgs/bg_body.jpg);
+	background-repeat: repeat-x;
+	background-position: top;
+	color:#000000;
+}
+
+a {
+	color:#696868;
+}
+
+a:hover {
+    color:#000000;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE HEADER     XXXXXXXXXX */
+
+.HeaderArea{
+	background-image:url(../../imgs/bgs/HeaderArea.jpg);
+}
+
+.HeaderBar, a{
+		color:#696868;
+}
+
+.ApplicationVesion{
+	color:#FFFFFF;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE TÍTULO E LOCALIZADOR     XXXXXXXXXX */
+
+.TitleBar .Title{
+	color:#333333; /* Muda conforme a cor principal do sistema  */
+}
+
+.TitleBar .BreadCrumb a{
+	color:#000;
+}
+
+.TitleBar .BreadCrumb a:hover{
+	color:#999;
+}	
+
+
+/* XXXXXXXXXX     ESTRUTURA DE FORMULÁRIO     XXXXXXXXXX */
+
+fieldset{
+	border:solid 1px #bfbfbf;
+	background-color:#ededed;
+}
+
+label, .FormTitle{
+    color:#333333; /* Muda conforme a cor principal do sistema  */
+}	
+
+.CheckboxLabel, .RadioButtonLabel{
+    color:#000000;
+}	
+
+input, select, textarea{
+	border:solid 1px;
+	border-color:#bfbfbf;
+}
+
+.FormButton{
+	background-image:url(../../imgs/bgs/form_button.jpg);
+	color: #333333; /* Muda conforme a cor principal do sistema  */
+}
+
+.FormButtonAction{
+	background-image:url(../../imgs/bgs/form_button_action.jpg);
+	color: #FFF;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE TABELA/GRID     XXXXXXXXXX */
+
+.TableGrid th{
+	color:#FFFFFF;
+	background-image:url(../../imgs/bgs/tabela_nivel01.jpg);	
+}
+
+
+.BgTrOdd{
+    background-color: #f7f7f7;
+}
+
+.BgTrPair{
+    background-color: #eaeaea;
+}
+
+
+.TableGrid, .TableGrid th, .TableGrid td{
+    border-color: #FFF;
+}
+
+/* XXXXXXXXXX     ESTRUTURA DE PAGINAÇAO     XXXXXXXXXX */
+
+.PaginationBar li .FormButton{
+	background-image:url(../../imgs/bgs/form_button.jpg);
+	background-color:#09C;
+	color: #333333; /* Muda conforme a cor principal do sistema  */
+}
+
+.Pagination {
+	color: #696868;
+	background-color: #FFFFFF;
+}
+
+ul.Pagination .ActualPage {
+    color: #FFFFFF;
+}
+
+ul.Pagination .ActualPage a {
+	background-color: #333333; /* Muda conforme a cor principal do sistema  */
+    color: #FFFFFF;
+}
+
+
+/* XXXXXXXXXX     ESTRUTURA DE MENSAGEM     XXXXXXXXXX */
+
+.InformationMsg{
+	border:1px solid #D1D1D1;
+	color: #666666;
+	background-color: #EAEBEB;
+	background-image: url(../../imgs/icones/ico_informacao.gif);
+}
+	
+.ErrorMsg{
+	border:1px solid #dab4ad;
+	color: #960606;
+	background-color: #fde4df;
+	background-image: url(../../imgs/icones/ico_erro.gif);
+}
+	
+.SuccessMsg{
+	border:1px solid #b8d2a3;
+	color: #235013;
+	background-color: #eafbdc;
+	background-image: url(../../imgs/icones/ico_sucesso.gif);
+}	
+
+.QuestionMsg{
+	border:1px solid #a3b2d2;
+	color: #101f5c;
+	background-color: #dce6fb;
+	background-image: url(../../imgs/icones/ico_pergunta.gif);
+}	
+
+
+/* XXXXXXXXXX     ESTRUTURA DE PÁGINA DE ERRO     XXXXXXXXXX */
+
+.MessageContent{
+	background-image:url(../../imgs/bgs/bg_conteudo_box.jpg);
+}
+
+.MessageErrorTitle {
+	background-repeat: no-repeat;
+	background-position: left top;
+	background-image:url(../../imgs/icones/Parar.gif);
+	color:#ce0a0a;	
+}
+
+
+/****************************************************************
+** MODIFICACOES PARA FCORP JAVA
+****************************************************************/
+
+.RadioButton label, .Checkbox label{
+  color: #000000;
+}
+
+.PaginationBar label{
+  color: #000000;
+}
+
+.TableGrid th a:link,.TableGrid th a:hover,.TableGrid th a:visited{
+    color:#FFFFFF;
+}
