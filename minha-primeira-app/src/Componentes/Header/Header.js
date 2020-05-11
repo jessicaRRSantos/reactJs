@@ -1,6 +1,8 @@
 import React from 'react';
 // import './styles.css';
 
+import Link from 'react-router-dom'
+
 import LogoBar from '../LogoBar/logo';
 
 const Header = (props) =>{
@@ -16,7 +18,7 @@ const Header = (props) =>{
                 </ul>
 
                 <ul className="ShortcutLinks">
-                    <li className="Label" ><a href="/home">Home</a></li>
+                    <li className="Label" ><Link to="/home" label="Home"/></li>
                     <li className="Label"><a href="/historico">Histórico</a></li>
                     <li className="Label"><a href="/sobre">Sobre</a></li>
                     <li className="Label"><a href="/logout">Logout</a></li>

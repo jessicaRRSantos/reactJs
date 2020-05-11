@@ -4,7 +4,7 @@ import './css/layout/layout.css';
 import './css/fontes/verdana.css';
 import './css/controles/basico.css';
 import './css/cores/cores.css';
-import Conteudo from './Componentes/Conteudo/conteudo';
+import Conteudo from './Componentes/Conteudo/Conteudo';
 
 function App() {
   return (
