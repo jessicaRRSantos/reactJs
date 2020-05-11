@@ -17,6 +17,7 @@ const Cadastro = () => {
                     <div class="TitleBar">
                         <div class="Title">Lund Trainers</div>
                     </div>
+                    {/* juste do cadastro */}
                     <Formulario/>
                 </div>
             </div>
