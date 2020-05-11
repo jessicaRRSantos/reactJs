@@ -8,7 +8,7 @@ const Home = () =>{
                 <div class="BreadCrumb"><a href="/home">Home</a> &raquo; Lund Trainers</div>
                 <div class="TitleBar">
                     <div class="Title">Lund Trainers</div>
-                </div>
+            </div>
             
                 <p>Localizado na Barra da Tijuca, no Rio de Janeiro, o Studio est&aacute; equipado com os mais modernos equipamentos e acess&oacute;rios funcionais. Nele s&atilde;o realizados a maior parte dos treinamentos</p>
                 <br/>                
