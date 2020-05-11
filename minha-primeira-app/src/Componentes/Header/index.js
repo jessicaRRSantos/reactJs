@@ -1,7 +1,7 @@
 import React from 'react';
 // import './styles.css';
 
-import LogoBar from '../LogoBar/logo';
+import LogoBar from '../LogoBar';
 
 const Header = (props) =>{
     return (

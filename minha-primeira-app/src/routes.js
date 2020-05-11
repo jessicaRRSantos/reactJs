@@ -2,8 +2,8 @@ import React from 'react';
 
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
-import Index from './Componentes/Home/index';
-import Cadastro from './Componentes/Cadastro/cadastro';
+import Index from './Componentes/Index';
+import Cadastro from './Componentes/Cadastro';
 
 
 export default function Routes (){
