@@ -1,12 +1,7 @@
 import React from 'react';
-import Header from '../Header/header';
-import Menu from '../Menu/menu';
-import Home from '../Home/home';
-
-import './styles.css';
-
-// branch pull request
-// teste de pull request
+import Header from '../Header';
+import Menu from '../Menu';
+import Home from '../Home';
 
 const Conteudo = () =>{
     return (
