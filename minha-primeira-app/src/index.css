@@ -11,3 +11,402 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
+
+/* ================= Form Vertical=======================  */
+
+
+img {
+	border:none;
+	padding: 0px;
+	margin: 0px;
+}
+
+/* XXXXXXXXXX     ESTRUTURA DE FORMULÁRIO     XXXXXXXXXX */
+
+/* -------------------------------------
+	Formulário Vertical
+------------------------------------- */
+.FormVertical div {
+	margin-bottom:.7em;
+	clear:both;
+}
+.FormVertical div.clear {
+	width:100%;
+	clear:both;
+	height:1em;	/* aumente ou diminua o tamanho para modificar o espaçamento da linha */
+}
+.FormVertical fieldset {
+	margin:15px 0px;
+	padding:10px;
+}
+.FormVertical .HeaderForm {
+	width:100%;
+	height:25px;
+	clear:both;
+}
+.FormVertical .FormTitle {
+	padding:0;
+	float:left;
+	width:50%;
+	clear:left;
+}
+.FormVertical .FormLegend {
+	padding:0;
+	float:right;
+	clear:right;
+	width:50%;
+	text-align:right;
+}
+.FormVertical div label {
+	float:left;
+	text-align:right;
+	padding-right:0.5em;
+	padding-top:0.25em;
+	width:250px;	/* largura do label com os nomes dos campos */
+}
+.FormVertical div span {
+	float:left;
+	padding:0.25em 0.5em 1em 0;
+}
+/* duas colunas */
+.FormVertical .col-2 {
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0;
+	clear:both;
+}
+.FormVertical .col-2 div {
+	width:49%;
+	padding:0 0 .2em 0;
+	margin:0 6px 4px 0;
+	display:inline-table;
+}
+/* corrigir o posicionamento de checkbox e radiobuttons em linha quando estão desabilitados em tela de somente leitura */
+.FormVertical .disabledFix {
+	position:relative;
+	top:-14px;
+}
+.FormVertical .col-2 div label {
+	width:150px;
+	margin:0;
+	padding:0 4px -1px 0;
+}
+/* três colunas: utilize somente em caso de exceção e para campos muito curtos! */
+.FormVertical .col-3 {
+	float:left;
+	width:100%;
+	margin:0;
+	padding:0;
+	clear:both;
+}
+.FormVertical .col-3 div {
+	width:auto;
+	padding:0 0 .2em 0;
+	margin:0 6px 0 0;
+	display:inline-table;
+}
+.FormVertical .col-3 div label {
+	width:auto;		/* largura do texto que aparece antes do campo. width: auto = remover formatação e os campos ficarão muito próximos um ao outro. */
+	margin:0 0 0 18px;		/* dica: se adicionar margem à esquerda, provavelmente algum tipo de formatação será conseguida */
+	padding:0 4px -1px 0;
+}
+.FormVertical .col-3 div.First {
+	margin-left:100px; /* alinhar horizontalmente: o 1º div alinhará sempre os outros dois que seguirão em linha */
+}
+/* ----------------------------------------------------------------------
+	Reiniciando o posicionamento dos checkboxes e radiobuttons quando aplicados via componentes
+	ou na seguinte configuração: <label><input />texto</label>
+----------------------------------------------------------------------- */
+.FormVertical div.ResetRadioAndCheckbox {
+	display:inline;
+}
+.FormVertical .ResetRadioAndCheckbox label {
+	width:auto;
+	position:relative;
+	text-align:left;
+}
+.FormVertical .ResetRadioAndCheckbox label input {
+	float:left;
+	position:relative;
+	margin:0 4px 7px 1px;
+	padding:0;
+	border:none;
+}
+.FormVertical .col-2 div div.ResetRadioAndCheckbox {
+	width:auto;
+	padding:0;
+	margin-left:-10px;
+}
+.FormVertical .col-2 div div.ResetRadioAndCheckbox label {
+	width:auto;
+}
+.FormButton, .FormButtonAction {
+	margin: 0 5px 10px 0;
+	padding:5px 17px 5px 17px;
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border:solid 1px #CCC;
+}
+
+/* -------------------------------------
+	Formulário Horizontal
+------------------------------------- */
+.FormHorizontal div {
+	margin-bottom:.7em;
+}
+.FormHorizontal fieldset {
+	margin:15px 0px;
+	padding:10px;
+}
+.FormHorizontal .HeaderForm {
+	width:100%;
+	height:25px;
+	clear:both;
+}
+.FormHorizontal .FormTitle {
+	padding:0;
+	float:left;
+	width:50%;
+	clear:left;
+}
+.FormHorizontal .FormLegend {
+	padding:0;
+	float:right;
+	clear:right;
+	width:50%;
+	text-align:right;
+}
+.FormHorizontal div span {
+	margin-left:.2em;	
+}
+.FormHorizontal div.primeiro {
+	margin-top:1.5em;
+}
+.FormHorizontal div.linhaBotoes {
+	margin:-0.5em auto -1em;
+	padding:15px 0;
+	text-align:center;
+}
+.FormHorizontal div label {
+	display:block;
+	padding:5px 0;
+}
+.FormHorizontal .alinharTopo {
+	position:relative;
+	top:-6px;
+}
+/* em casos onde será necessário exibir texto ao invés de inputs, selects e textareas */
+.FormHorizontal div.texto {
+	display:table;
+	width:100%;
+	clear:both;
+}
+.FormHorizontal div.texto span {
+	float:left;
+	width:auto;
+	margin-top:5px;
+	font-weight:bold;
+}
+.FormHorizontal .maiorAcessibilidade {
+	font-size:125%;
+}
+
+.FormHorizontal .alinharTopo {
+	vertical-align:top;
+}
+/* espaçamento */
+.FormHorizontal div.clear {
+	float:left;
+	width:100%;
+	margin:0.9em 0 1em 0;
+	padding:0;
+}
+
+/* Múltiplas colunas: 2 ou "n" */
+.FormHorizontal div.col-2,  .FormHorizontal div.col-n {
+	clear:both;
+	width:80%;		/* tamanho limite que os campos poderão ocupar dentro da tela. width:100% = tela inteira. */
+	margin:0 auto;
+}
+.FormHorizontal div.col-n div {
+	/* float:left; */
+	display:inline;
+	width:auto;
+	margin-right:1em;
+}
+.FormHorizontal .col-2 div {
+	float:left;
+	width:50%;
+}
+.FormHorizontal div.col-2 label {
+	display:block;
+	margin:0;
+}
+.FormHorizontal div.col-2 label.esquerda {
+	margin-left:126px;
+}
+
+/* ----------------------------------------------------------------------
+	Reiniciando o posicionamento dos checkboxes e radiobuttons quando aplicados via componentes
+	ou na seguinte configuração: <label><input />texto</label>
+----------------------------------------------------------------------- */
+.FormHorizontal .col-2 div div.ResetRadioAndCheckbox {
+	display:inline;
+	width:auto;
+	padding:0;
+	margin-left:-10px;
+}
+.FormHorizontal .ResetRadioAndCheckbox label {
+	float:left;
+	width:auto;
+	position:relative;
+}
+.FormHorizontal .ResetRadioAndCheckbox label input {
+	float:left;
+	display:inline;
+	position:relative;
+	margin:0 4px 7px 10px;
+	padding:0;
+	border:none;
+}
+
+/* XXXXXXXXXX     ESTRUTURA DE TABELA/GRID     XXXXXXXXXX */
+
+.TableGrid {
+	width:100%;
+	padding:5px;
+	border-width: 0 0 1px 1px;
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+.TableGrid, .TableGrid th, .TableGrid td {
+	border-style: solid;
+}
+.TableGrid td {
+	margin: 0;
+	padding: 4px;
+	border-width: 1px 1px 0 0;
+}
+.TableGrid th {
+	border-width: 1px 1px 0 0;
+	padding-top:7px;
+	padding-bottom:7px;
+	font-weight:bold;
+}
+.TotalPage {
+	margin:0;
+	padding:15px 0;
+}
+.SearchResults {
+	padding:15px 0;
+}
+.AlignCenter {
+	text-align:center;
+}
+.AlignRight {
+	text-align:right;
+}
+.ButtonCell {
+	width:20px;
+}
+/* XXXXXXXXXX     ESTRUTURA DE PAGINAÇÃO     XXXXXXXXXX */
+
+.PaginationBar {
+	margin:0;
+	padding:0;
+	display: inline;
+	float:right;
+}
+.PaginationBar li {
+	display: inline;
+}
+.PaginationBar li input {
+	margin:0;
+	padding:0;
+}
+.PaginationBar li .FormButton {
+	padding:1px 5px 1px 5px;
+}
+ul.Pagination {
+	display: block;
+	margin-bottom: 10px;
+}
+ul.Pagination li {
+	display: inline;
+}
+ul.Pagination ul {
+	display: inline;
+}
+ul.Pagination a {
+	margin: 0 10px;
+}
+ul.Pagination .ActualPage a {
+	margin:0;
+	padding: 0 10px;
+}
+/* XXXXXXXXXX     ESTRUTURA DE MENSAGEM     XXXXXXXXXX */
+
+.MensageList li {
+	margin-bottom: 15px;
+}
+.MensageList {
+	padding:0;
+	margin:0;
+	list-style-type:none;
+}
+.InformationMsg, .ErrorMsg, .SuccessMsg, .QuestionMsg {
+	padding:8px 0 0 35px;
+	height: 19px;
+	background-attachment: scroll;
+	background-repeat: no-repeat;
+	background-position: 7px 2px;
+	display: block;
+}
+/*****************************************
+   MUDANCAS FCORP JAVA
+*****************************************/
+
+.ButtonImage {
+	border:0px;
+}
+.PaginationBar label {
+	float:left;
+}
+.RadioButton label, .Checkbox label {
+	display: block;
+	float: left;
+	clear: none;
+}
+.RadioButton input, .Checkbox input {
+	border: 0px;
+	display: block;
+	float: left;
+	clear: left;
+}
+.Pagination li ul {
+	margin-left:0;
+	padding-left:0;
+}
+/* configuração das classes utilizadas pelo componente ToolBar do Richfaces */
+
+.rich-toolbar {
+	background: none;
+	border: none;
+}
+.rich-menu-item {
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #696868;
+	padding-left: 0px;
+	background-color: #EDEDED;
+}
+.rich-label-text-decor {
+	font-size: 10px;
+	font-family: Verdana, Geneva, sans-serif;
+	color: #696868;
+}
+

@@ -3,10 +3,6 @@ import Header from '../Header';
 import Menu from '../Menu';
 import Home from '../Home';
 
-
-// branch pull request
-// teste de pull request
-
 const Conteudo = () =>{
     return (
 
