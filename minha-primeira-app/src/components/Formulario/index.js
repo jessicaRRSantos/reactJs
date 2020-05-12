@@ -1,18 +1,19 @@
 import React from 'react';
 
+
 const Formulario = () =>{
+
     return (
         <form action="#">
         <fieldset>
-            <div class="HeaderForm">
-                <div class="FormTitle">DADOS PESSOAIS</div>
-                {/*<div class="FormLegend">(*) Campos obrigatórios</div>*/}
+            <div className="HeaderForm">
+                <div className="FormTitle">DADOS PESSOAIS</div>
             </div>
             <br />
             <table>
                 <tr>
-                    <td class="FormOneColumnLabel"><label for="nome">Nome</label></td>
-                    <td class="FormOneColumnField"><input id="nome" type="text" size="70" maxlength="100" name="nome" /></td>
+                    <td className="FormOneColumnLabel"><label for="nome">Nome</label></td>
+                    <td className="FormOneColumnField"><input id="nome" type="text" size="70" maxlength="100" name="nome"/></td>
                 </tr>
                 <tr>
                     <td><label for="dataNascimento">Data de Nascimento</label></td>
@@ -41,8 +42,8 @@ const Formulario = () =>{
             </table>
         </fieldset>
         <fieldset>
-            <div class="HeaderForm">
-                <div class="FormTitle">HIST&Oacute;RICO</div>
+            <div className="HeaderForm">
+                <div className="FormTitle">HIST&Oacute;RICO</div>
             </div>
             <br />
             <table>
@@ -145,8 +146,8 @@ const Formulario = () =>{
             </table>
         </fieldset>
         <fieldset>
-            <div class="HeaderForm">
-                <div class="FormTitle">MOBILIDADE</div>
+            <div className="HeaderForm">
+                <div className="FormTitle">MOBILIDADE</div>
             </div>
             <br />
             <table>
