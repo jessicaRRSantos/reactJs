@@ -1,12 +1,13 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Menu = (props) => (
-    <div class="MenuArea">
-            <ul class="MainMenu">
-                <li><a href="/cadastro">Cadastro</a></li>
-                <li><a href="grid.html">Consulta e Grid</a></li>
-                <li><a href="grid_sem_pesquisa.html">Grid simples</a></li>
-                <li><a href="erro.html">Tela de Erro</a></li>
+    <div className="MenuArea">
+            <ul className="MainMenu">
+                <li><Link to="/cadastro">Cadastro</Link></li>
+                <li><Link to="/consulta">Consulta e Grid</Link></li>
+                <li><Link to="grid_sem_pesquisa.html">Grid simples</Link></li>
+                <li><Link to="erro.html">Tela de Erro</Link></li>
             </ul> 
     </div>
     )

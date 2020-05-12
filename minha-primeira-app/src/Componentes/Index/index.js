@@ -10,7 +10,7 @@ import Conteudo from '../Conteudo';
 const Index = () =>{
   return (
       <body>
-        <div class="Wrap">
+        <div className="Wrap">
           <Conteudo/>
         </div>
     </body>

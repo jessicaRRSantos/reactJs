@@ -2,12 +2,12 @@ import React from 'react';
 
 const Home = () =>{
     return (
-        <div class="ContentArea">
-            <div class="MainContent">
+        <div className="ContentArea">
+            <div className="MainContent">
             
-                <div class="BreadCrumb"><a href="/home">Home</a> &raquo; Lund Trainers</div>
-                <div class="TitleBar">
-                    <div class="Title">Lund Trainers</div>
+                <div className="BreadCrumb"><a href="/home">Home</a> &raquo; Lund Trainers</div>
+                <div className="TitleBar">
+                    <div className="Title">Lund Trainers</div>
             </div>
             
                 <p>Localizado na Barra da Tijuca, no Rio de Janeiro, o Studio est&aacute; equipado com os mais modernos equipamentos e acess&oacute;rios funcionais. Nele s&atilde;o realizados a maior parte dos treinamentos</p>
