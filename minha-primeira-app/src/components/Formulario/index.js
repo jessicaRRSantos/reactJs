@@ -1,6 +1,8 @@
-import React from 'react';
+import React, {useState} from 'react';
+
 
 const Formulario = () =>{
+
     return (
         <form action="#">
         <fieldset>
@@ -12,7 +14,7 @@ const Formulario = () =>{
             <table>
                 <tr>
                     <td class="FormOneColumnLabel"><label for="nome">Nome</label></td>
-                    <td class="FormOneColumnField"><input id="nome" type="text" size="70" maxlength="100" name="nome" /></td>
+                    <td class="FormOneColumnField"><input id="nome" type="text" size="70" maxlength="100" name="nome"/></td>
                 </tr>
                 <tr>
                     <td><label for="dataNascimento">Data de Nascimento</label></td>
