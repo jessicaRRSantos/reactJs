@@ -1,6 +1,8 @@
 import React from 'react';
 import Header from '../Header';
 import Menu from '../Menu';
+
+
 import Formulario from '../Formulario';
 
 const Cadastro = () => {
@@ -17,8 +19,7 @@ const Cadastro = () => {
                     <div class="TitleBar">
                         <div class="Title">Lund Trainers</div>
                     </div>
-                    {/* juste do cadastro */}
-                    <Formulario/>
+                   <Formulario/>
                 </div>
             </div>
             </div>
