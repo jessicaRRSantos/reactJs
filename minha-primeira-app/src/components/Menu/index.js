@@ -1,8 +1,8 @@
 import React from 'react';
 
 const Menu = (props) => (
-    <div class="MenuArea">
-            <ul class="MainMenu">
+    <div className="MenuArea">
+            <ul className="MainMenu">
                 <li><a href="/cadastro">Cadastro</a></li>
                 <li><a href="grid.html">Consulta e Grid</a></li>
                 <li><a href="grid_sem_pesquisa.html">Grid simples</a></li>

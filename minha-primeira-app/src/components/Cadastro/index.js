@@ -13,11 +13,11 @@ const Cadastro = () => {
                 <Menu />
                 {/* <Home /> */}
                 <div className="ContentArea">
-                <div class="MainContent">
+                <div className="MainContent">
 
-                    <div class="BreadCrumb"><a href="/home">Home</a> &raquo; Lund Trainers</div>
-                    <div class="TitleBar">
-                        <div class="Title">Lund Trainers</div>
+                    <div className="BreadCrumb"><a href="/home">Home</a> &raquo; Lund Trainers</div>
+                    <div className="TitleBar">
+                        <div className="Title">Lund Trainers</div>
                     </div>
                     {/* ajuste */}
                     <Formulario/>

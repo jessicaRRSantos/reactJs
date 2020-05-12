@@ -9,11 +9,11 @@ import Conteudo from '../Conteudo';
 
 const Index = () =>{
   return (
-      <body>
-        <div class="Wrap">
+      // <body>
+        <div className="Wrap">
           <Conteudo/>
         </div>
-    </body>
+    // </body>
   );
 }
 
