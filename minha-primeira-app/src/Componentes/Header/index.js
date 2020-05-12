@@ -1,6 +1,7 @@
 import React from 'react';
 
 import LogoBar from '../LogoBar';
+import { Link } from 'react-router-dom';
 
 const Header = (props) =>{
     return (
@@ -15,10 +16,10 @@ const Header = (props) =>{
                 </ul>
 
                 <ul className="ShortcutLinks">
-                    <li className="Label" ><a href="/home">Home</a></li>
-                    <li className="Label"><a href="/historico">Histórico</a></li>
-                    <li className="Label"><a href="/sobre">Sobre</a></li>
-                    <li className="Label"><a href="/logout">Logout</a></li>
+                    <li className="Label" ><Link to="/">Home</Link></li>
+                    <li className="Label"><Link to="/historico">Histórico</Link></li>
+                    <li className="Label"><Link to="/sobre">Sobre</Link></li>
+                    <li className="Label"><Link to="/sair">Sair</Link></li>
                 </ul>
             </div>
             <LogoBar/>
