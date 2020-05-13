@@ -3,8 +3,8 @@ import React from 'react';
 const htmlFormularioCore = () => {
     return (
         <fieldset>
-            <div className="HeaderhtmlForm">
-                <div className="htmlFormTitle">CORE</div>
+            <div className="HeaderForm">
+                <div className="FormTitle">CORE</div>
             </div>
             <br />
             <table>

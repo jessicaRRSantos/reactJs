@@ -1,16 +1,16 @@
 import React from 'react';
 
-const htmlFormularioDadosPessoais = () => {
+const FormularioDadosPessoais = () => {
     return (
         <fieldset>
-            <div className="HeaderhtmlForm">
-                <div className="htmlFormTitle">DADOS PESSOAIS</div>
+            <div className="HeaderForm">
+                <div className="FormTitle">DADOS PESSOAIS</div>
             </div>
             <br />
             <table>
                 <tr>
-                    <td className="htmlFormOneColumnLabel"><label htmlFor="nome">Nome</label></td>
-                    <td className="htmlFormOneColumnField"><input id="nome" type="text" size="70" maxLength="100" name="nome"/></td>
+                    <td className="FormOneColumnLabel"><label htmlFor="nome">Nome</label></td>
+                    <td className="FormOneColumnField"><input id="nome" type="text" size="70" maxlength="100" name="nome"/></td>
                 </tr>
                 <tr>
                     <td><label htmlFor="dataNascimento">Data de Nascimento</label></td>
@@ -41,4 +41,4 @@ const htmlFormularioDadosPessoais = () => {
     );
 }
 
-export default htmlFormularioDadosPessoais;
+export default FormularioDadosPessoais;

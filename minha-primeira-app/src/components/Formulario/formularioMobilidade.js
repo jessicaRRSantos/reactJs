@@ -3,8 +3,8 @@ import React from 'react';
 const htmlFormularioMobilidade = () => {
     return (
         <fieldset>
-        <div className="HeaderhtmlForm">
-            <div className="htmlFormTitle">MOBILIDADE</div>
+        <div className="HeaderForm">
+            <div className="FormTitle">MOBILIDADE</div>
         </div>
         <br />
         <table>
