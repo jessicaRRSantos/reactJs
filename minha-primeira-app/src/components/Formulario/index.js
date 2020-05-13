@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {Fragment} from 'react';
 
 import FormularioHistorico from './formularioHistorico';
 import FormularioDadosPessoais from './formularioDadosPessoais';
@@ -9,16 +9,15 @@ import FormularioConclusoesRedirecionamento from './formularioConclusoesRedireci
 
 
 const Formulario = () =>{
-
     return (
-        <form action="#">
+        <Fragment>
             <FormularioDadosPessoais/>
             <FormularioHistorico/>
             <FormularioMobilidade/>    
             <FormularioCore/>  
             <FormularioPadroesMovimento/>
             <FormularioConclusoesRedirecionamento/>
-        </form>  
+        </Fragment> 
     );
 }
 
