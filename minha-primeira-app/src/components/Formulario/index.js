@@ -4,6 +4,8 @@ import FormularioHistorico from './formularioHistorico';
 import FormularioDadosPessoais from './formularioDadosPessoais';
 import FormularioMobilidade from './formularioMobilidade';
 import FormularioCore from './formularioCore';
+import FormularioPadroesMovimento from './formularioPadroesMovimento';
+import FormularioConclusoesRedirecionamento from './formularioConclusoesRedirecionamento';
 
 
 const Formulario = () =>{
@@ -14,7 +16,9 @@ const Formulario = () =>{
             <FormularioHistorico/>
             <FormularioMobilidade/>    
             <FormularioCore/>  
-         </form>    
+            <FormularioPadroesMovimento/>
+            <FormularioConclusoesRedirecionamento/>
+        </form>  
     );
 }
 

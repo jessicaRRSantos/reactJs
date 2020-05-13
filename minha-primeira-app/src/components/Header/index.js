@@ -4,8 +4,7 @@ import LogoBar from '../LogoBar';
 
 const Header = (props) =>{
     return (
-        <div className="headerArea">
-            
+        <div className="headerArea">            
             <div className="HeaderBar">
                 <ul className="UserInfo">
                     <li className="Label">Usuário: </li>

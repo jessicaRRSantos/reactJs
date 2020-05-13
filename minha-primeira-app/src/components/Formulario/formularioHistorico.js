@@ -74,31 +74,31 @@ const FormularioHistorico = () => {
             </tr>
             <tr>
                 <td><label htmlFor="examesClinicos">Exames Cl&iacute;nicos:</label></td>
-                <td><input id="examesClinicos" type="text" size="70" maxlength="100" name="examesClinicos" /></td>
+                <td><input id="examesClinicos" type="text" size="70" maxLength="100" name="examesClinicos" /></td>
             </tr>
             <tr>
                 <td><label htmlFor="doencasAnteriores">Doen&ccedil;as Anteriores:</label></td>
-                <td><input id="doencasAnteriores" type="text" size="70" maxlength="100" name="doencasAnteriores" /></td>
+                <td><input id="doencasAnteriores" type="text" size="70" maxLength="100" name="doencasAnteriores" /></td>
             </tr>
             <tr>
                 <td><label htmlFor="doencasAnteriores">Hist&oacute;rico Familiar:</label></td>
-                <td><input id="doencasAnteriores" type="text" size="70" maxlength="100" name="doencasAnteriores" /></td>
+                <td><input id="doencasAnteriores" type="text" size="70" maxLength="100" name="doencasAnteriores" /></td>
             </tr>
             <tr>
                 <td><label htmlFor="cirurgiasInternacoes">Cirurgias e Interna&ccedil;&otilde;es:</label></td>
-                <td><input id="cirurgiasInternacoes" type="text" size="70" maxlength="100" name="cirurgiasInternacoes" /></td>
+                <td><input id="cirurgiasInternacoes" type="text" size="70" maxLength="100" name="cirurgiasInternacoes" /></td>
             </tr>
             <tr>
                 <td><label htmlFor="dorOuLesao">Dor ou Les&atilde;o:</label></td>
-                <td><input id="dorOuLesao" type="text" size="70" maxlength="100" name="dorOuLesao" /></td>
+                <td><input id="dorOuLesao" type="text" size="70" maxLength="100" name="dorOuLesao" /></td>
             </tr>
             <tr>
                 <td><label htmlFor="medicacaoEmUso">Medica&ccedil;&atilde;o em Uso:</label></td>
-                <td><input id="medicacaoEmUso" type="text" size="70" maxlength="100" name="medicacaoEmUso" /></td>
+                <td><input id="medicacaoEmUso" type="text" size="70" maxLength="100" name="medicacaoEmUso" /></td>
             </tr>
             <tr>
                 <td><label htmlFor="acompanhamentoNutricional">Acompanhamento Nutricional:</label></td>
-                <td><input id="acompanhamentoNutricional" type="text" size="70" maxlength="100" name="acompanhamentoNutricional" /></td>
+                <td><input id="acompanhamentoNutricional" type="text" size="70" maxLength="100" name="acompanhamentoNutricional" /></td>
             </tr>
             <tr>
                 <td><label htmlFor="objetivos">Hist&oacute;rico detalhado e Observa&ccedil;&otilde;es</label></td>

@@ -10,11 +10,11 @@ const FormularioDadosPessoais = () => {
             <table>
                 <tr>
                     <td className="FormOneColumnLabel"><label htmlFor="nome">Nome</label></td>
-                    <td className="FormOneColumnField"><input id="nome" type="text" size="70" maxlength="100" name="nome"/></td>
+                    <td className="FormOneColumnField"><input id="nome" type="text" size="70" maxLength="100" name="nome"/></td>
                 </tr>
                 <tr>
                     <td><label htmlFor="dataNascimento">Data de Nascimento</label></td>
-                    <td><input name="dataNascimento" type="text" id="dataNascimento" value="dd/mm/aaaa" /></td>
+                    <td><input name="dataNascimento" type="text" id="dataNascimento" placeholder="dd/mm/aaaa" /></td>
                 </tr>
                 <tr>
                     <td><label htmlFor="idade">Idade</label></td>
@@ -22,7 +22,7 @@ const FormularioDadosPessoais = () => {
                 </tr>
                 <tr>
                     <td><label htmlFor="dataAvaliacao">Data da Avalia&ccedil;&atilde;o</label></td>
-                    <td><input name="dataAvaliacao" type="text" id="dataAvaliacao" value="dd/mm/aaaa" /></td>
+                    <td><input name="dataAvaliacao" type="text" id="dataAvaliacao" placeholder="dd/mm/aaaa" /></td>
                 </tr>
                 <tr>
                     <td><label htmlFor="estatura">Estatura</label></td>

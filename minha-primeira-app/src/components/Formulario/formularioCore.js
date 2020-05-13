@@ -9,13 +9,13 @@ const htmlFormularioCore = () => {
             <br />
             <table>
             <tr>
-                <td><label htmlFor="consciencia">Consciência (Biofeedback no Stabilizer):</label></td>
+                <td><label htmlFor="consciencia">Consci&ecirc;ncia (Biofeedback no Stabilizer):</label></td>
                 <td><input id="consciencia" type="text" size="50" maxLength="50" name="consciencia" /></td>
                 <td><label htmlFor="plank">Plank (3min):</label></td>
                 <td><input id="plank" type="text" size="50" maxLength="50" name="plank" /></td>
             </tr>
             <tr>
-                <td><label htmlFor="perdigueiro">Perdigueiro (Equilíbrio):</label></td>
+                <td><label htmlFor="perdigueiro">Perdigueiro (Equil&iacute;brio):</label></td>
                 <td><input id="perdigueiro" type="text" size="50" maxLength="50" name="perdigueiro" /></td>
                 <td><label htmlFor="extensaoLombar">Extensão Lombar (2min):</label></td>
                 <td><input id="extensaoLombar" type="text" size="50" maxLength="50" name="extensaoLombar" /></td>                      
@@ -33,6 +33,7 @@ const htmlFormularioCore = () => {
                 <td><input id="controleRotacionalInferior" type="text" name="controleRotacionalInferior" /></td>                      
             </tr>
             </table>
-        </fieldset>    );
+        </fieldset>    
+        );
 }
 export default htmlFormularioCore;
