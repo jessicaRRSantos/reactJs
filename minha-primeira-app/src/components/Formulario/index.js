@@ -13,7 +13,7 @@ const Formulario = () =>{
         <Fragment>
             <FormularioDadosPessoais/>
             <FormularioHistorico/>
-            <FormularioMobilidade/>    
+            <FormularioMobilidade/>  
             <FormularioCore/>  
             <FormularioPadroesMovimento/>
             <FormularioConclusoesRedirecionamento/>
