@@ -7,7 +7,7 @@ const FormularioHistorico = () => {
                 <div className="FormTitle">HIST&Oacute;RICO</div>
             </div>
             <br />
-            <div className="col-2">
+            <div className="col-4">
                 <div>
                     <label htmlFor="praticaAtividade">Pratica atividade f&iacute;sica?</label>
                     <select name="selectAtividade">
@@ -16,37 +16,39 @@ const FormularioHistorico = () => {
                         <option value="N">N&Atilde;O</option>
                     </select>
                 </div>
+
                 <div>
                     <label htmlFor="qualAitivade">Qual?</label>
                     <input id="qualAitivade" type="text" size="40" name="qualAitivade" />
-                </div>                
+                </div>
             </div>
-            <div className="col-3">   
-            <div>
-                <label htmlFor="frequenciaSemanal">Frequencia Semanal</label>
-                <select name="selectFrequenciaSemanal">
-                    <option value="">Selecione...</option>
-                    <option value="1">1 VEZ NA SEMANA</option>
-                    <option value="2">2 VEZES NA SEMANA</option>
-                    <option value="3">3 VEZES NA SEMANA</option>
-                    <option value="4">4 VEZES NA SEMANA</option>
-                    <option value="5">5 VEZES NA SEMANA</option>
-                    <option value="6">6 VEZES NA SEMANA</option>
-                    <option value="7">7 VEZES NA SEMANA</option>
-                </select>
-                </div>             
+            
+            <div className="col-4">
                 <div>
-                <label htmlFor="quantoTempo">H&aacute; quanto tempo?</label>
-                <input id="quantoTempo" type="text" size="10" name="quantoTempo" />
+                    <label htmlFor="frequenciaSemanal">Frequencia Semanal</label>
+                    <select name="selectFrequenciaSemanal">
+                        <option value="">Selecione...</option>
+                        <option value="1">1 VEZ NA SEMANA</option>
+                        <option value="2">2 VEZES NA SEMANA</option>
+                        <option value="3">3 VEZES NA SEMANA</option>
+                        <option value="4">4 VEZES NA SEMANA</option>
+                        <option value="5">5 VEZES NA SEMANA</option>
+                        <option value="6">6 VEZES NA SEMANA</option>
+                        <option value="7">7 VEZES NA SEMANA</option>
+                    </select>
                 </div>
                 <div>
-                <label htmlFor="horarioPreferencial">Hor&aacute;rio Preferencial</label>
-                <select name="selectHorarioPreferencial">
-                    <option value="">Selecione...</option>
-                    <option value="M">MANH&Atilde;</option>
-                    <option value="T">TARDE</option>
-                    <option value="N">NOITE</option>
-                </select>
+                    <label htmlFor="quantoTempo">H&aacute; quanto tempo?</label>
+                    <input id="quantoTempo" type="text" size="10" name="quantoTempo" />
+                </div>
+                <div>
+                    <label htmlFor="horarioPreferencial">Hor&aacute;rio Preferencial</label>
+                    <select name="selectHorarioPreferencial">
+                        <option value="">Selecione...</option>
+                        <option value="M">MANH&Atilde;</option>
+                        <option value="T">TARDE</option>
+                        <option value="N">NOITE</option>
+                    </select>
                 </div>
             </div>
             <div>
@@ -57,36 +59,36 @@ const FormularioHistorico = () => {
                 <label htmlFor="atividadesQueGosta">que gosta</label>
                 <textarea id="atividadesQueGosta" name="atividadesQueGosta" rows="5" cols="62" />
             </div>
-            <div className="col-3">
+            <div className="col-4">
                 <div>
-                <label htmlFor="fumante">Fumante?</label>
-                <select name="selectFumante">
-                    <option value="">Selecione...</option>
-                    <option value="S">SIM</option>
-                    <option value="N">N&Atilde;O</option>
-                </select>
+                    <label htmlFor="fumante">Fumante?</label>
+                    <select name="selectFumante">
+                        <option value="">Selecione...</option>
+                        <option value="S">SIM</option>
+                        <option value="N">N&Atilde;O</option>
+                    </select>
                 </div>
                 <div>
-                <label htmlFor="parouA">Parou a </label>
-                <input id="parouA" type="text" size="30" name="parouA" />
+                    <label htmlFor="parouA">Parou a </label>
+                    <input id="parouA" type="text" size="30" name="parouA" />
                 </div>
                 <div>
-                <label htmlFor="numeroCigarros">N&uacute;mero de Cigarros:</label>
-                <input id="numeroCigarros" type="text" size="30" name="numeroCigarros" />
+                    <label htmlFor="numeroCigarros">N&uacute;mero de Cigarros:</label>
+                    <input id="numeroCigarros" type="text" size="30" name="numeroCigarros" />
                 </div>
             </div>
-            <div className="col-2">
+            <div className="col-4">
                 <div>
-                <label htmlFor="etilismo">Etilismo?</label>
-                <select name="selectEtilismo">
-                    <option value="">Selecione...</option>
-                    <option value="S">SIM</option>
-                    <option value="N">N&Atilde;O</option>
-                </select>
+                    <label htmlFor="etilismo">Etilismo?</label>
+                    <select name="selectEtilismo">
+                        <option value="">Selecione...</option>
+                        <option value="S">SIM</option>
+                        <option value="N">N&Atilde;O</option>
+                    </select>
                 </div>
                 <div>
-                <label htmlFor="alergia">Alergia:</label>
-                <input id="alergia" type="text" size="50" name="alergia" />
+                    <label htmlFor="alergia">Alergia:</label>
+                    <input id="alergia" type="text" size="50" name="alergia" />
                 </div>
             </div>
             <div>

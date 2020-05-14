@@ -9,19 +9,23 @@ const FormularioPadroesMovimento = () => {
             <br />
             <div>
                 <label>Squat</label>
+            </div>
+            <div>
                 <label htmlFor="blackSquat">10RM Black Squat</label>
                 <input id="blackSquat" type="text" size="30" maxLength="30" name="blackSquat"/>
             </div>
             <div>
                 <label htmlFor="mobilidadeTornozeloQuadril">Mobilidade (Tornozelo e Quadril):</label>
-                <input id="mobilidadeTornozeloQuadril" type="text" size="70" maxLength="100" name="mobilidadeTornozeloQuadril"/>                      
+                <input id="mobilidadeTornozeloQuadril" type="text" size="30" maxLength="100" name="mobilidadeTornozeloQuadril"/>                      
             </div>
             <div>
                 <label htmlFor="projecaoEscapulasColunaSquat">Proje&ccedil;&atilde;o (Escapulas e Coluna):</label>
-                <input id="projecaoEscapulasColunaSquat" type="text" size="70" maxLength="100" name="projecaoEscapulasColunaSquat"/>                      
+                <input id="projecaoEscapulasColunaSquat" type="text" size="30" maxLength="100" name="projecaoEscapulasColunaSquat"/>                      
             </div>
             <div>
                 <label>Deadlift</label>
+            </div>
+            <div>
                 <label htmlFor="deadlift">10RM Deadlift</label>
                 <input id="deadlift" type="text" size="30" maxLength="30" name="deadlift"/>
             </div>
