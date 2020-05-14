@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header';
 import Menu from '../Menu';
+import {Link} from 'react-router-dom';
 
 
 import Formulario from '../Formulario';
@@ -15,7 +16,7 @@ const Cadastro = () => {
                 <div className="ContentArea">
                     <div className="MainContent">
 
-                        <div className="BreadCrumb"><a href="/home">Home</a> &raquo; Lund Trainers</div>
+                        <div className="BreadCrumb"><Link to="/cadastro">Cadastro</Link> &raquo; Lund Trainers</div>
                         <div className="TitleBar">
                             <div className="Title">Lund Trainers</div>
                         </div>
