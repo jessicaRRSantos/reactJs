@@ -10,6 +10,7 @@ import FormularioConclusoesRedirecionamento from './formularioConclusoesRedireci
 
 const Formulario = () =>{
     return (
+       
         <Fragment>
             <FormularioDadosPessoais/>
             <FormularioHistorico/>
