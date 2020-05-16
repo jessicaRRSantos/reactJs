@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { Component, useState } from 'react';
 import Collapse, { Panel } from 'rc-collapse';
+
 import 'rc-collapse/assets/index.css';
 
+
+
+
+
+
+
+
 const FormularioDadosPessoais = () => {
+    const [idade,setidade] = useState('');
+    const handleIdade= (e)=>{
+        // testa se o valor é numerico 
+        (+e.target.value) ? setidade(e.target.value) : setidade('');
+    }
+
     return (
         <Collapse accordion={true}>
             <Panel header="DADOS PESSOAIS" headerClassName="FormTitle">
@@ -18,7 +32,7 @@ const FormularioDadosPessoais = () => {
                     </div>
                     <div>
                         <label htmlFor="idade">Idade</label>
-                        <input id="idade" type="text" size="10" name="idade" /> anos
+                        <input id="idade" type="text" size="10" onChange={handleIdade} name="idade" value={idade} /> anos
                 </div>
                     <div>
                         <label htmlFor="dataAvaliacao">Data da Avalia&ccedil;&atilde;o</label>
