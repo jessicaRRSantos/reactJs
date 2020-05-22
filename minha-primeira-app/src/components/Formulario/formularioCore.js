@@ -6,7 +6,7 @@ import 'rc-collapse/assets/index.css';
 const htmlFormularioCore = () => {
     return (
         <Collapse accordion={true}>
-            <Panel header="DADOS PESSOAIS" headerClassName="FormTitle">
+            <Panel header="CORE" headerClassName="FormTitle">
                 <fieldset>
                     <div className="col-2">
                         <div>
