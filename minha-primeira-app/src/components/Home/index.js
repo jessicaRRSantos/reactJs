@@ -5,7 +5,7 @@ const Home = () =>{
         <div className="ContentArea">
             <div className="MainContent">
             
-                <div className="BreadCrumb"><a href="/home">Home</a> &raquo; Lund Trainers</div>
+                <div className="BreadCrumb"><a href="/">Home</a> &raquo; Lund Trainers</div>
                 <div className="TitleBar">
                     <div className="Title">Lund Trainers</div>
             </div>
