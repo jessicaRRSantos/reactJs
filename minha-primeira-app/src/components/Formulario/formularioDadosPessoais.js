@@ -1,21 +1,32 @@
-import React, { Component, useState } from 'react';
+import React, { Component } from 'react';
 import Collapse, { Panel } from 'rc-collapse';
 
 import 'rc-collapse/assets/index.css';
 
 
 
+class FormularioDadosPessoais extends Component {
 
+    constructor (props){
+        super (props);
 
-
-
-
-const FormularioDadosPessoais = () => {
-    const [idade,setidade] = useState('');
-    const handleIdade= (e)=>{
-        // testa se o valor é numerico 
-        (+e.target.value) ? setidade(e.target.value) : setidade('');
+        this.state = {
+            idade: '',
+            estatura: ''
+    
+        }
     }
+
+    render (){
+        const handleCamposNumericos = (field) => val => {
+            console.log(val.target.value);
+            
+            if (+val.target.value >= 0)  {
+                this.setState({[field]: val.target.value});
+            }
+            return '';
+            
+        } 
 
     return (
         <Collapse accordion={true}>
@@ -32,7 +43,7 @@ const FormularioDadosPessoais = () => {
                     </div>
                     <div>
                         <label htmlFor="idade">Idade</label>
-                        <input id="idade" type="text" size="10" onChange={handleIdade} name="idade" value={idade} /> anos
+                        <input id="idade" type="text" size="10" onChange={handleCamposNumericos('idade')} name="idade" value={this.state.idade} /> anos
                 </div>
                     <div>
                         <label htmlFor="dataAvaliacao">Data da Avalia&ccedil;&atilde;o</label>
@@ -40,7 +51,7 @@ const FormularioDadosPessoais = () => {
                     </div>
                     <div>
                         <label htmlFor="estatura">Estatura</label>
-                        <input id="estatura" type="text" size="10" name="estatura" /> cm
+                        <input id="estatura" type="text" size="10" onChange={handleCamposNumericos('estatura')} name="estatura" value={this.state.estatura} /> cm
                 </div>
                     <div>
                         <label htmlFor="objetivos">Objetivos</label>
@@ -54,6 +65,7 @@ const FormularioDadosPessoais = () => {
             </Panel>
         </Collapse>
     );
+}
 }
 
 export default FormularioDadosPessoais;

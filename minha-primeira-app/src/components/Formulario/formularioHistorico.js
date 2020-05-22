@@ -1,8 +1,27 @@
-import React from 'react';
+import React, { Component } from 'react';
 import Collapse, { Panel } from 'rc-collapse';
 import 'rc-collapse/assets/index.css';
 
-const FormularioHistorico = () => {
+class FormularioHistorico extends Component {
+   
+    constructor (props){
+        super (props);
+
+        this.state = {
+            numeroCigarros: ''    
+        }
+    }
+
+    render (){
+        const handleCamposNumericos = (field) => val => {
+            console.log(val.target.value);
+            
+            if (+val.target.value >= 0)  {
+                this.setState({[field]: val.target.value});
+            }
+            return '';          
+        } 
+
     return (
         <Collapse accordion={true}>
             <Panel header="HIST&Oacute;RICO" headerClassName="FormTitle">
@@ -74,7 +93,7 @@ const FormularioHistorico = () => {
                         </div>
                         <div>
                             <label htmlFor="numeroCigarros">N&uacute;mero de Cigarros:</label>
-                            <input id="numeroCigarros" type="text" size="30" name="numeroCigarros" />
+                            <input id="numeroCigarros" type="text" size="30" onChange={handleCamposNumericos('numeroCigarros')} name="numeroCigarros" value={this.state.numeroCigarros}/>
                         </div>
                     </div>
                     <div className="col-4">
@@ -127,6 +146,7 @@ const FormularioHistorico = () => {
             </Panel>
         </Collapse>
     );
+    }
 }
 
 export default FormularioHistorico;
