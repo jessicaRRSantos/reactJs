@@ -25,7 +25,7 @@ const Cadastro = () => {
                             <Formulario />
                         </div>                      
                         <div className="FormLineButtons">
-                            <input name="button" type="button" value="Gravar" className="FormButtonAction"/>
+                            <input name="button" type="button" value="Gravar" className="FormButton"/>
                             <input name="BtCancelar" type="reset" className="FormButton" id="BtCancelar" value="Limpar" />
                             <Link to="/"><input name="BtCancelar2" type="button" className="FormButton" id="BtCancelar2" value="Voltar"/></Link>
                         </div>
